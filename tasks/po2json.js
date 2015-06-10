@@ -41,7 +41,7 @@ module.exports = function(grunt) {
         }
 
         grunt.file.write(dest, contents);
-        grunt.log.writeln('File "' + dest + '" created.');
+        grunt.verbose.writeln('File "' + dest + '" created.');
       });
     });
 
